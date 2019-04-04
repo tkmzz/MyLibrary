@@ -22,7 +22,8 @@ android {
     }
 }
 
-uploadArchives {
+/*
+ uploadArchives {
     repositories {
         mavenDeployer {
             // Altere a linha abaixo para um diretório do seu computador
@@ -35,6 +36,7 @@ uploadArchives {
     }
 }
 task install(dependsOn: uploadArchives)
+*/
 
 
 
